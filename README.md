@@ -3,7 +3,7 @@
 
 ##  Overview  
 Txtrovert is a sentiment analysis model trained on the [IMDB Movies Dataset (50k+ reviews)](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews). It classifies reviews as **positive** or **negative** using **logistic regression**. 
-It is deployed on [Huggingface Spaces](https://huggingface.co/spaces/sahilgarje/txtrovert) btw.
+It is deployed on [Streamlit Community Cloud](txtrovert.streamlit.app) and [Huggingface Spaces](https://huggingface.co/spaces/sahilgarje/txtrovert).
 
 ## How It Works  
 1. The input review is transformed using a **TF-IDF vectorizer**.  
